@@ -1,0 +1,114 @@
+ html{
+    font-family: "Audiowide", sans-serif;
+ }
+
+ 
+ body{
+    padding:0;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+ }
+
+ .grid-container{
+   display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+
+ header{
+   background-color: rgb(44, 44, 44);
+   color: rgb(200, 200, 200);
+   text-align: center;
+ }
+
+ #clock{
+   grid-column: 5;
+   font-family: "Turret Road", sans-serif;
+   padding: 1.8rem;
+   border-radius: 1rem;
+   font-size: 1.5rem;
+}
+
+ .container{
+    grid-column:2/span 3;
+    grid-row: 2;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(240, 248, 255, 0);
+    backdrop-filter: blur(0.5rem);
+    border-radius: 1rem;
+    border: 1px solid white;
+    margin-top: 10rem;
+ }
+
+ .container .counter{
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(/asset/img/chuttersnap-TSgwbumanuE-unsplash.jpg);  
+    background-size: cover;
+    border-radius: 1rem;
+    box-shadow:inset 0 0 2rem 1rem rgb(255, 255, 255);
+    padding: 5rem;
+    transition: all 1s ease-out;
+ }
+
+ #LDmode{
+    /* float: right; */
+    grid-column: 3;
+    grid-row: 1;
+    border-radius: 1rem;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    font-family: "Audiowide", sans-serif;
+ }
+
+ .plus{
+    border-radius: 1rem;
+    font-size: 1.9rem;
+    background-color:rgb(255, 255, 255);
+    color: rgb(44, 44, 44);
+    font-family: "Turret Road", sans-serif;
+ }
+ .minus{
+    border-radius: 1rem;
+    font-size: 2rem;
+    background-color:rgb(255, 255, 255);
+    color: rgb(44, 44, 44);
+    font-family: "Turret Road", sans-serif;
+ }
+
+ .resetbtn{
+   border-radius: 1rem;
+   font-size: 1.9rem;
+   background-color:rgb(255, 255, 255);
+   color: rgb(44, 44, 44);
+   font-family: "Turret Road", sans-serif;
+ }
+
+ .view{
+    font-family: "Turret Road", sans-serif;
+    color: rgb(255, 255, 255);
+ }
+
+ footer{
+   margin-top: 2rem;
+   text-align: center;
+
+ }
+ footer h6{
+   grid-column: 3;
+   grid-row: 2;
+   color:rgb(255, 255, 255) ;
+ }
+
+ .container .counter-sleep {
+   grid-column: 1;
+   grid-row: 2;
+   background-image: url(/asset/img/julien-maculan-g_4-wSwBaKc-unsplash\ \(1\).jpg);  
+   background-size: cover;
+   border-radius: 1rem;
+   box-shadow:0 0 2rem 1rem rgb(255, 255, 255);
+   padding: 5rem;
+   transition: all 1s ease-out;
+}
+
