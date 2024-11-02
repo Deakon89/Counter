@@ -31,3 +31,24 @@ Eventuali aggiornamenti riguardo nuove funzionalità saranno aggiunte nel presen
 
 ![Dark](/asset/img-readme/CounterDark.png)
 
+---
+
+## **Description**
+
+Simple numeric counter developed in JavaScript.
+
+---
+
+## **Instructions for use** 
+
+The main controls are the three buttons +, - and reset, as you can imagine they are used to increase, decrease and reset the contents of the central display. The counter includes only positive numbers, negative numbers are disabled.
+
+**Secondary features**
+
+1. Digital Clock.
+2. Button to change from day mode to night mode. 
+
+--- 
+
+Any updates regarding new features will be added to this Readme in the appropriate section.
+
