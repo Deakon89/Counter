@@ -11,7 +11,7 @@
 
  .grid-container{
    display: grid;
-   grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns:1fr 1fr 2fr 1fr 1fr;
 }
 
  header{
@@ -23,13 +23,13 @@
  #clock{
    grid-column: 5;
    font-family: "Turret Road", sans-serif;
-   padding: 1.8rem;
+   padding: 1.8rem 1rem 1.8rem 1rem;
    border-radius: 1rem;
    font-size: 1.5rem;
 }
 
  .container{
-    grid-column:2/span 3;
+    grid-column:3;
     grid-row: 2;
     text-align: center;
     display: grid;
