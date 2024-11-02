@@ -1,12 +1,12 @@
-* Counter.Js 
+# **Counter.Js** 
 
-** Descrizione  
+## **Descrizione**  
 
 Semplice contatore numerico sviluppato in JavaScript. 
 
 ---
 
-** Istruzioni d'uso 
+## **Istruzioni d'uso** 
 
 I controlli principali sono i tre tasti +, - e reset, come intuibile servono per incrementare, decrementare e resettare il contenuto del display centrale. 
 Il contatore comprende solo numeri positivi, le numerazioni negative sono disabilitate. 
