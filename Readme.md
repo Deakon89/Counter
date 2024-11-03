@@ -1,6 +1,6 @@
 # **Counter.Js** 
 
-## link al progetto-->[sito](https://counterjsatmosphere.netlify.app/)
+## link al progetto-->[Counter.JS](https://counterjsatmosphere.netlify.app/)
 
 ## **Descrizione**  
 
