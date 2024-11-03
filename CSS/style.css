@@ -93,7 +93,7 @@
 
  /* end display counter */
 
- /* --- */
+
 
  footer{
    margin-top: 2rem;
@@ -106,10 +106,7 @@
    color:rgb(255, 255, 255) ;
  }
 
- /* --- */
-
- /* mod-Dark-Light */
-
+ /* dark mode */
  .container .counter-sleep {
    grid-column: 1;
    grid-row: 2;
