@@ -1,5 +1,7 @@
 # **Counter.Js** 
 
+## link al progetto-->[sito](https://counterjsatmosphere.netlify.app/)
+
 ## **Descrizione**  
 
 Semplice contatore numerico sviluppato in JavaScript. 
