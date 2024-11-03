@@ -41,6 +41,8 @@
     margin-top: 10rem;
  }
 
+ /* display counter */
+
  .container .counter{
     grid-column: 1;
     grid-row: 2;
@@ -53,7 +55,6 @@
  }
 
  #LDmode{
-    /* float: right; */
     grid-column: 3;
     grid-row: 1;
     border-radius: 1rem;
@@ -90,6 +91,10 @@
     color: rgb(255, 255, 255);
  }
 
+ /* end display counter */
+
+ /* --- */
+
  footer{
    margin-top: 2rem;
    text-align: center;
@@ -100,6 +105,10 @@
    grid-row: 2;
    color:rgb(255, 255, 255) ;
  }
+
+ /* --- */
+
+ /* mod-Dark-Light */
 
  .container .counter-sleep {
    grid-column: 1;
